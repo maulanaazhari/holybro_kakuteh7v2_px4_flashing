@@ -6,7 +6,7 @@
 - ```dfu-util -a 0 --dfuse-address 0x08000000:force:mass-erase:leave -D ./holybro_kakuteh7v2_bootloader.bin```
 - disconnect the board
 - connect the board while pushiong the DFU button
-- ```dfu-util -a 0 --dfuse-address 0x08000000 -D ./build/holybro_kakuteh7v2_bootloader/holybro_kakuteh7v2_bootloader.bin```
+- ```dfu-util -a 0 --dfuse-address 0x08000000 -D ./holybro_kakuteh7v2_bootloader.bin```
 - disconnect the board
 - open QGC/Firmware page
 - connect the board normally
